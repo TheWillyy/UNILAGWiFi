@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "content_scripts":[{
+        "exclude_globs":[  ],
+        "include_globs":["*"],
+        "js":["unilagwifi.user.js"],
+        "matches":[
+            "http://hsunilaggw.unilag.edu.ng/*",
+            "http://guapgw.unilag.edu.ng/*"
+        ],
+        "run_at":"document_end"
+    }],
+    "name":"UNILAGWiFi",
+    "short_name":"UNILAGWiFi",
+    "description":"UNILAG WIFI Auto Login",
+    "version":"1"
+}
